@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "290322494633",
+    "firebase_url": "https://rs-game-ceae2.firebaseio.com",
+    "project_id": "rs-game-ceae2",
+    "storage_bucket": "rs-game-ceae2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290322494633:android:fd7558750bbd116c",
+        "android_client_info": {
+          "package_name": "com.example.rc_reg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290322494633-7lropjrejnfmk5q8g2i4n7iq1jd3tl2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rc_reg",
+            "certificate_hash": "afa3922901b361b7637fd4e866e96e826d4ba98e"
+          }
+        },
+        {
+          "client_id": "290322494633-269di7ou6b6ct8teu3o5cul12ro32tfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByBAiTWJ-c9dVw0V13y7Ps-nSvsWf27gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290322494633-269di7ou6b6ct8teu3o5cul12ro32tfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
