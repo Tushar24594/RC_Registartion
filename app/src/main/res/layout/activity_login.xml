@@ -5,19 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".login"
-    android:background="@drawable/bglogin">
-
+    android:background="@mipmap/phonebg">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/cricketer"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/image"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:text=""
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/play"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingTop="5sp"
+        android:text="TRIP TO ENGLAND"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/england"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/play"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_edge"
-        android:layout_marginTop="200sp"
+        android:layout_below="@+id/england"
+        android:layout_marginTop="20sp"
         android:layout_marginLeft="30sp"
         android:layout_marginRight="30sp"
         android:paddingTop="30sp"
         android:paddingBottom="30sp"
         android:id="@+id/first">
-
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"/>
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,6 +67,7 @@
                 android:maxLines="1"
                 android:singleLine="true"/>
         </android.support.design.widget.TextInputLayout>
+
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"

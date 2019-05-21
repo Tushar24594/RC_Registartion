@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">RS_Reg</string>
+    <string name="app_name">RoyalStag</string>
     <string name="title_activity_profile">profile</string>
     <string name="title_activity_start">start</string>
     <string name="title_activity_score">score</string>
+    <string name="redeem">1.  To be redeemed at <a href="https://paytm.com/">bit.ly/19ESVgv</a></string>
+    <string name="point2">2.  Click on Add money to Wallet</string>
+    <string name="point3">3.  Click on Have a promo code </string>
+    <string name="point4">  Enter the Amount and promo code  and submit </string>
+    <string name="point5">  Your wallet will be then instantly loaded with the entered amount and promo code.</string>
 </resources>

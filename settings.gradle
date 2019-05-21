@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':RoyalStagGa', ':RoyalStagM', ':RoyalStag-debug', ':RoyalStagManu', ':Royal', ':RoyalStagBackbtn', ':RoyalStagBack', ':RoyalStagV4', ':RoyalStagV5', ':RoyalStagv6', ':RoyalStagUnity', ':RoyalStagUintyGame', ':RoyalStagFinalV1', ':RoyalStagFinalV2', ':RoyalStagV8', ':RoyalStagFinalV3', ':RoyalStagFinalV6', ':RoyalStagFinalV7', ':RoyalStagFinalV10', ':RoyalStagV10', ':RoyalStagFinalV11'
