@@ -4,35 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".start"
-    android:background="@mipmap/bgamazon">
+    tools:context="in.tagglabs.rs_reg.start"
+    android:background="@mipmap/nbg">
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/per"
+        android:src="@mipmap/profile"
         android:layout_alignParentRight="true"
-        android:paddingRight="5sp"
-        android:paddingTop="3sp"
-        android:background="#f0f4e3"
+        android:paddingRight="15sp"
+        android:paddingTop="15sp"
+        android:paddingLeft="15sp"
+        android:paddingBottom="15sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="10sp"
+        android:background="#00ffffff"
         android:id="@+id/profile"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/nlogo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo"
+        android:layout_marginTop="20sp"/>
     <TextView
+        android:layout_below="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CONGRATULATIONS"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="26sp"
-        android:layout_marginTop="40sp"
+        android:layout_marginTop="10sp"
         android:id="@+id/congrats"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lorem ipsum dolor sit amet, consectur"
+        android:text="You Just Won a Digital Wallet Cashback"
         android:layout_centerHorizontal="true"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:paddingTop="3sp"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         android:id="@+id/text2"
         android:layout_below="@id/congrats"/>
     <TextView
@@ -41,25 +54,29 @@
         android:layout_below="@+id/text2"
         android:layout_centerHorizontal="true"
         android:paddingTop="3sp"
-        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
         android:id="@+id/text3"
-        android:text="adipsiscing elit, sed do"/>
+        android:textStyle="bold"
+        android:text="voucher as below"/>
     <ImageView
+        android:id="@+id/rotate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/paytm"
+        android:src="@mipmap/voucher"
         android:layout_below="@id/text3"
         android:layout_centerHorizontal="true"
-        android:paddingTop="30sp"/>
+        android:paddingTop="20sp"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="125sp"
         android:background="@drawable/rounded_edge"
-        android:layout_marginTop="440sp"
-        android:layout_marginLeft="60sp"
-        android:layout_marginRight="60sp"
+        android:layout_marginTop="225sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
         android:paddingTop="30sp"
         android:paddingBottom="15sp"
+        android:visibility="invisible"
         android:id="@+id/first"
         android:orientation="vertical">
 
@@ -72,11 +89,9 @@
                 android:id="@+id/coupon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:maxLength="10"
-                android:paddingLeft="10dp"
-                android:text="123456"
+                android:text="DJR6GJK2EMVRRQAG"
                 android:textAlignment="center"
-                android:textSize="32sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:maxLines="1"
@@ -87,12 +102,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/first"
+        android:id="@+id/tap"
+        android:text="Tap to Flip"
+        android:textAlignment="center"
+        android:paddingTop="10sp"
+        android:textSize="20sp"
+        android:textColor="#fefdde"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tap"
         android:id="@+id/redeem"
         android:text="How to Redeem"
         android:textAlignment="center"
         android:paddingTop="10sp"
         android:textSize="20sp"
-        android:textColor="#540000"
+        android:textColor="#fefdde"
         android:paddingBottom="5dp"/>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -103,9 +129,10 @@
         android:layout_marginRight="30sp"
         >
         <Button
+            android:visibility="visible"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CONTINUE TO GAME"
+            android:text="CONTINUE"
             android:id="@+id/startGame"
             android:textColor="#ffffff"
             android:background="@drawable/button"  />

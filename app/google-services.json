@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:290322494633:android:fd7558750bbd116c",
         "android_client_info": {
-          "package_name": "com.example.rc_reg"
+          "package_name": "in.tagglabs.rs_reg"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "290322494633-7lropjrejnfmk5q8g2i4n7iq1jd3tl2l.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.rc_reg",
+            "package_name": "in.tagglabs.rs_reg",
             "certificate_hash": "afa3922901b361b7637fd4e866e96e826d4ba98e"
           }
         },
